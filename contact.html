@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Powerhouse Electrical</title> 
+	<link rel="icon" type="image/png" href="img/logo.png">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" href="css/hamburger.css">
+	<link rel="stylesheet" href="css/bootstrap.css"> 
+	<link rel="stylesheet" href="css/swipebox.css"> 
+	<script src="https://use.fontawesome.com/228e8d7980.js"></script>
+
+</head>
+<body>
+
+	<div id="page">
+		
+		<nav>
+			<a href="index.html"><img src="img/logo.jpg" alt="logo"></a> 
+			<span class="mobile-menu">
+				<span id="mobile-icon" class="mobile"> 
+					<button id="menu-button" class="hamburger hamburger--slider " type="button">
+						<span class="hamburger-box">
+							<span class="hamburger-inner"></span>
+						</span>
+					</button>
+				</span>
+			</span>
+			<ul id="menu-links">	
+				<li><a href="index.html">Home</a></li> 
+				<li><a href="services.html">Services</a></li>
+				<li><a href="photos.html">Photos</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav> 
+
+		<div id="header"> 
+			<div id="service-head">
+				<h1>Contact</h1> 
+			</div>
+		</div> 
+
+		<div class="info">
+			<div class="col-lg-6 col-md-6 col-sm-12 c-info">
+				<p>Phone: 0000 000 000</p> 
+			</div> 
+			<div class="col-lg-6 col-md-6 col-sm-12 c-info">
+				<p>Email:  contact@email.com</p>
+			</div>
+		</div> 
+
+		
+
+		<div id="forms" class="row">
+			<div id="quote" class="col-lg-6 col-md-6 col-sm-12">
+				<h3>Enquire for a quote</h3> 
+				<form id="ajax-form" method="post">
+					<div class="form-body">
+						<div>
+							<input type="text" name="name" placeholder="Your Name" id="nameIn"> 
+							<span id="name-msg" class="error"></span>
+						</div> 
+						<div>
+							<input type="tel" name="phone" placeholder="Your Phone Number" id="phoneIn">
+							<span id="phone-msg" class="error"></span>
+						</div> 
+						<div>
+							<input type="email" name="email" placeholder="Your Email" id="emailIn">
+							<span id="email-msg" class="error"></span>
+						</div> 
+						<div>
+							<textarea rows="4" cols="50" placeholder="Describe the job you want done..." id="msgIn" name="message"></textarea>
+							<span id="message-msg" class="error"></span>
+						</div> 
+					</div>
+					<div>
+						<button id="send-btn"><span class="button-text">Send</span></button>
+					</div>
+				</form>
+			</div> 	
+		</div> 
+
+		
+		
+		
+
+	</div>  
+	<footer>
+		<div class="footer-inner">
+			<div>
+				<ul>
+					<li><a href="index.html">Home</a></li> 
+					<li><a href="services.html">Services</a></li> 
+					<li><a href="photos.html">Photos</a></li> 
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div> 
+			<div>
+				<ol>
+					<li class="circle-link"><a href="tel:+64800721683"><i class="fa fa-phone circle-icon" aria-hidden="true"></i></a></li> 
+					<li class="circle-link"><a href="mailto:agibbs.decorators@clear.net.nz"><i class="fa fa-envelope circle-icon" aria-hidden="true"></i></a></li>
+					<li class="circle-link"><a href="https://www.facebook.com/Arthur-Gibbs-Decorators-Ltd-147389555280282/" target="_blank"><i class="fa fa-facebook circle-icon" aria-hidden="true"></i></a></li>
+				</ol>
+			</div> 
+			<div class="copy">
+				<span>&copy; 2018 Power House <span class="desktop tablet">Ltd, All rights reserved</span></span>
+			</div>
+		</div>
+	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+	<script src="js/bootstrap.min.js"></script>  
+	<script type="text/javascript" src="js/animation.js"></script> 
+	<script type="text/javascript" src="js/mobile-menu.js"></script> 
+	<script src="js/jquery.swipebox.js"></script> 
+	<script type="text/javascript">
+		;( function($) {
+			$('.swipebox').swipebox();
+		} )( jQuery );
+	</script>  
+	<script type="text/javascript" src="js/slider.js"></script>  
+	<script type="text/javascript" src="js/calculator.js"></script> 
+	<script type="text/javascript" src="js/contactFormValidation.js"></script> 
+</body>
+</html>
